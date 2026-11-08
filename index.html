@@ -1,44 +1,97 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Carpet and car seat cleaning in Pinxton and surrounding areas. Contact Steve for a quote.">
-<title>Steve’s Carpet Cleaning Service | Pinxton</title>
-<style>
-:root{--navy:#102a43;--teal:#22a6a1;--pale:#eaf5f6;--ink:#183247;--muted:#5d7180}
-*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;color:var(--ink);line-height:1.6}a{color:inherit}
-.wrap{width:min(1100px,92%);margin:auto}header{background:var(--navy);color:#fff;padding:18px 0}.nav{display:flex;justify-content:space-between;align-items:center;gap:16px}.brand{font-weight:800}.brand small{display:block;color:#8ee1dc;letter-spacing:.08em;text-transform:uppercase}
-.btn{display:inline-block;background:var(--teal);color:#062d37;padding:12px 20px;border-radius:30px;text-decoration:none;font-weight:bold;border:0;cursor:pointer}
-.hero{background:linear-gradient(115deg,rgba(11,38,58,.96),rgba(18,94,113,.88)),url('https://images.unsplash.com/photo-1600166898405-da9535204843?auto=format&fit=crop&w=1800&q=85') center/cover;color:#fff;padding:85px 0}
-.hero h1{font-size:clamp(2.5rem,6vw,4.5rem);line-height:1.08;max-width:750px;margin:12px 0}.hero p{font-size:1.15rem;max-width:620px;color:#e2eff2}
-section{padding:65px 0}.intro{text-align:center;max-width:700px;margin:0 auto 32px}.intro h2{font-size:2.4rem;color:var(--navy);margin:0 0 10px}.muted{color:var(--muted)}
-.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.card{border:1px solid #e1ebef;border-radius:18px;padding:25px;box-shadow:0 10px 25px #102a430d}.card .icon{font-size:2rem}.card h3{color:var(--navy);margin:10px 0 6px}
-.why{background:#f4f8fa}.whybox{background:var(--navy);color:#fff;border-radius:20px;padding:30px}.contact{display:grid;grid-template-columns:1fr 1.2fr;gap:28px}.contactbox{background:var(--pale);padding:26px;border-radius:18px}form{display:grid;gap:12px}label{font-weight:bold}input,textarea{font:inherit;padding:12px;border:1px solid #cbd9df;border-radius:9px;width:100%}textarea{min-height:120px}footer{background:#0b2032;color:#d4e3e8;text-align:center;padding:25px}
-.wa{position:fixed;right:16px;bottom:16px;background:#1fbf70;color:#062c1a;padding:13px 18px;border-radius:30px;text-decoration:none;font-weight:bold;box-shadow:0 5px 20px #0003}
-@media(max-width:720px){.cards{grid-template-columns:1fr}.contact{grid-template-columns:1fr}.nav{align-items:flex-start}.hero{padding:65px 0}section{padding:50px 0}}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Professional carpet and car seat cleaning from Steve’s Carpet Cleaning Service in Pinxton and surrounding areas. Get in touch for a free quote.">
+  <meta name="theme-color" content="#102a43">
+  <title>Steve’s Carpet Cleaning Service | Carpet & Car Seat Cleaning</title>
+  <style>
+    :root{--navy:#102a43;--blue:#176b87;--teal:#22a6a1;--pale:#eaf5f6;--ink:#183247;--muted:#5d7180;--white:#fff}
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);line-height:1.6;background:#fff}
+    a{color:inherit} .wrap{width:min(1120px,92%);margin:auto}
+    header{background:var(--navy);color:white;padding:17px 0;position:sticky;top:0;z-index:10}
+    .nav{display:flex;justify-content:space-between;align-items:center;gap:20px}.brand{font-weight:800;font-size:1.08rem;line-height:1.2}.brand span{display:block;color:#8ee1dc;font-size:.76rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;margin-top:4px}
+    nav{display:flex;gap:22px;align-items:center}nav a{text-decoration:none;font-weight:600;font-size:.94rem}nav a:hover{color:#8ee1dc}
+    .btn{display:inline-block;border:0;border-radius:999px;padding:13px 21px;font-weight:700;text-decoration:none;cursor:pointer;background:var(--teal);color:#062d37}
+    .btn:hover{filter:brightness(1.06);transform:translateY(-1px)}.btn.outline{background:transparent;border:1px solid #b9d8df;color:white}
+    .hero{background:linear-gradient(115deg,rgba(11,38,58,.96),rgba(18,94,113,.88)),url('https://images.unsplash.com/photo-1600166898405-da9535204843?auto=format&fit=crop&w=1800&q=85') center/cover;color:white;padding:94px 0 100px}
+    .hero-content{max-width:690px}.eyebrow{color:#9ce7df;text-transform:uppercase;letter-spacing:.14em;font-weight:800;font-size:.8rem}
+    h1{font-size:clamp(2.45rem,6vw,4.6rem);line-height:1.06;margin:15px 0 20px;letter-spacing:-.04em}
+    .hero p{font-size:1.14rem;max-width:590px;color:#e2eff2;margin:0 0 28px}.actions{display:flex;gap:12px;flex-wrap:wrap}
+    section{padding:75px 0}.section-head{text-align:center;max-width:680px;margin:0 auto 38px}.section-head h2{font-size:clamp(1.8rem,4vw,2.6rem);line-height:1.15;margin:8px 0 12px;color:var(--navy)}.section-head p{color:var(--muted);margin:0}
+    .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.card{padding:27px;border:1px solid #e1ebef;border-radius:18px;background:#fff;box-shadow:0 12px 30px rgba(16,42,67,.05)}
+    .icon{width:46px;height:46px;border-radius:14px;background:var(--pale);display:grid;place-items:center;font-size:1.35rem;margin-bottom:15px}.card h3{margin:0 0 8px;color:var(--navy)}.card p{margin:0;color:var(--muted)}
+    .gallery{display:grid;grid-template-columns:1fr 1fr;gap:22px}.photo-card{overflow:hidden;border:1px solid #e1ebef;border-radius:18px;background:#fff;box-shadow:0 12px 30px rgba(16,42,67,.07)}.photo-card img{display:block;width:100%;height:280px;object-fit:cover}.photo-copy{padding:22px}.photo-copy h3{margin:0 0 7px;color:var(--navy)}.photo-copy p{margin:0;color:var(--muted)}.email-link{overflow-wrap:anywhere;font-weight:700;color:var(--navy)}
+    .why{background:#f4f8fa}.why-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}.why-panel{background:var(--navy);color:white;padding:35px;border-radius:22px}.why-panel h2{font-size:2rem;line-height:1.2;margin:0 0 15px}.why-panel p{color:#d3e2e8}.ticks{padding:0;list-style:none}.ticks li{margin:12px 0}.ticks li:before{content:"✓";color:#73ddd2;font-weight:900;margin-right:10px}
+    .contact-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:35px;align-items:start}.contact-info{background:var(--pale);padding:30px;border-radius:20px}.contact-info h3{margin-top:0;color:var(--navy)}.contact-info p{color:var(--muted)}form{display:grid;gap:14px}.field{display:grid;gap:6px}label{font-weight:700;font-size:.92rem}input,textarea,select{width:100%;padding:13px 14px;border:1px solid #cbd9df;border-radius:10px;font:inherit;color:var(--ink);background:#fff}textarea{min-height:125px;resize:vertical}input:focus,textarea:focus,select:focus{outline:3px solid #b9e8e5;border-color:var(--teal)}
+    .small{font-size:.85rem;color:var(--muted)}footer{background:#0b2032;color:#d4e3e8;padding:27px 0;text-align:center;font-size:.9rem}
+    .wa{position:fixed;right:20px;bottom:20px;z-index:20;background:#1fbf70;color:#062c1a;border-radius:999px;padding:13px 18px;text-decoration:none;font-weight:800;box-shadow:0 8px 25px #062c1a44}
+    @media(max-width:760px){.gallery{grid-template-columns:1fr}.photo-card img{height:230px}nav{gap:12px}nav a:not(.btn){display:none}.hero{padding:75px 0}.cards{grid-template-columns:1fr}.why-grid,.contact-grid{grid-template-columns:1fr}section{padding:58px 0}.nav{align-items:flex-start}.brand{max-width:210px}}
+  </style>
 </head>
 <body>
-<header><div class="wrap nav"><div class="brand">Steve’s Carpet Cleaning Service<small>Pinxton &amp; surrounding areas</small></div><a class="btn" href="#contact">Get a free quote</a></div></header>
+<header><div class="wrap nav">
+  <div class="brand">Steve’s Carpet Cleaning Service<span>Fresh carpets. Feel-good homes.</span></div>
+  <nav><a href="#services">Services</a><a href="#photos">Photos</a><a href="#about">Why choose us</a><a href="#contact" class="btn">Get a free quote</a></nav>
+</div></header>
 <main>
-<section class="hero"><div class="wrap"><p><strong>FRESHER HOMES. CLEANER CAR INTERIORS.</strong></p><h1>Bring your carpets and car seats back to life.</h1><p>Friendly, professional carpet and car seat cleaning in Pinxton and surrounding areas. Contact Steve to discuss your cleaning needs and request a quote.</p><a class="btn" href="#contact">Request a free quote</a></div></section>
-<section id="services"><div class="wrap"><div class="intro"><h2>Our cleaning services</h2><p class="muted">A freshen-up for your home or your vehicle. Get in touch to discuss the areas you would like cleaned.</p></div>
-<div class="cards">
-<article class="card"><div class="icon">✦</div><h3>Carpet cleaning</h3><p class="muted">Refresh carpets and help lift everyday dirt and build-up from the rooms you use most.</p></article>
-<article class="card"><div class="icon">🚗</div><h3>Car seat cleaning</h3><p class="muted">Freshen up your vehicle’s seats and give your car interior some care and attention.</p></article>
-<article class="card"><div class="icon">✓</div><h3>Free quote enquiries</h3><p class="muted">Tell us what needs cleaning and where you are, and ask Steve for a tailored quote.</p></article>
-</div></div></section>
-<section class="why"><div class="wrap"><div class="intro"><h2>Friendly local service</h2><p class="muted">Steve’s Carpet Cleaning Service serves Pinxton and surrounding areas. Get in touch directly to ask a question or request a quote.</p></div><div class="whybox"><h2>Ready for a fresher finish?</h2><p>Whether it’s carpets at home or seats in your car, send an enquiry and let us know what you need.</p><a class="btn" href="#contact">Contact Steve</a></div></div></section>
-<section id="contact"><div class="wrap"><div class="intro"><h2>Request your free quote</h2><p class="muted">Call, WhatsApp or send an enquiry below.</p></div><div class="contact">
-<div class="contactbox"><h3>Steve’s Carpet Cleaning Service</h3><p><strong>Phone</strong><br><a href="tel:07526142521">07526 142521</a></p><p><strong>Service area</strong><br>Pinxton and surrounding areas</p><a class="btn" href="https://wa.me/447526142521">Message Steve on WhatsApp</a></div>
-<form id="enquiry"><div><label for="name">Your name</label><input id="name" name="name" required></div><div><label for="email">Email address</label><input id="email" name="email" type="email" required></div><div><label for="phone">Phone number (optional)</label><input id="phone" name="phone"></div><div><label for="details">What would you like cleaned?</label><textarea id="details" name="details" placeholder="Tell us about your carpets or car seats..." required></textarea></div><button class="btn" type="submit">Prepare my enquiry</button><p class="muted" id="status">The form opens your email app with your enquiry ready to send. The business email needs to be added in the website code first.</p></form>
-</div></div></section>
-</main><footer>© <span id="year"></span> Steve’s Carpet Cleaning Service. All rights reserved.</footer>
-<a class="wa" href="https://wa.me/447526142521">WhatsApp Steve</a>
+  <section class="hero"><div class="wrap hero-content">
+    <div class="eyebrow">A fresher feel starts here</div>
+    <h1>Bring your carpets back to life.</h1>
+    <p>Professional carpet and car seat cleaning with friendly service and care. Serving Pinxton and surrounding areas. Get in touch with Steve for a quote.</p>
+    <div class="actions"><a class="btn" href="#contact">Request a free quote</a><a class="btn outline" href="#services">Explore services</a></div>
+  </div></section>
+  <section id="services"><div class="wrap">
+    <div class="section-head"><div class="eyebrow" style="color:#168b8b">What we do</div><h2>A cleaner, fresher space</h2><p>Whether it’s one room or several, tell us what you need and we’ll help you take the next step.</p></div>
+    <div class="cards">
+      <article class="card"><div class="icon">✦</div><h3>Carpet cleaning</h3><p>Refresh carpets in bedrooms, lounges, hallways and other living spaces. Ask Steve for a quote tailored to your rooms.</p></article>
+      <article class="card"><div class="icon">🚗</div><h3>Car seat cleaning</h3><p>Freshen fabric car seats and tackle everyday dirt and marks. Tell us about your vehicle when you enquire.</p></article>
+      <article class="card"><div class="icon">◷</div><h3>Stain and spot treatment</h3><p>Let us know about spills or marks so we can discuss suitable treatment options.</p></article>
+    </div>
+  </div></section>
+  <section id="photos"><div class="wrap"><div class="section-head"><div class="eyebrow" style="color:#168b8b">Our cleaning services</div><h2>Professional cleaning, fresh results</h2><p>Examples of the clean, cared-for spaces we aim to help you enjoy.</p></div>
+    <div class="gallery">
+      <article class="photo-card"><img src="https://images.unsplash.com/photo-1600166898405-da9535204843?auto=format&amp;fit=crop&amp;w=1400&amp;q=85" alt="Freshly cleaned carpet in a bright home" loading="lazy"><div class="photo-copy"><h3>Carpet cleaning</h3><p>Give your carpets a freshen-up and make your rooms feel welcoming again.</p></div></article>
+      <article class="photo-card"><img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&amp;fit=crop&amp;w=1400&amp;q=85" alt="Clean modern vehicle interior and seats" loading="lazy"><div class="photo-copy"><h3>Car seat cleaning</h3><p>Refresh your vehicle's seats and interior fabric with a professional clean.</p></div></article>
+    </div>
+  </div></section>
+  <section class="why" id="about"><div class="wrap why-grid">
+    <div><div class="eyebrow" style="color:#168b8b">The personal touch</div><h2 style="font-size:2.4rem;line-height:1.15;color:#102a43">Service you can feel good about.</h2><p style="color:#5d7180">Steve’s Carpet Cleaning Service is here to make arranging a carpet or car seat clean straightforward. Serving Pinxton and surrounding areas. Get in touch, explain what you need, and ask for a quote before booking.</p></div>
+    <div class="why-panel"><h2>Let’s get your carpets looking their best.</h2><p>Have a question or want to check availability? Send a message and we’ll take it from there.</p><ul class="ticks"><li>Friendly, direct contact</li><li>Quotes tailored to your requirements</li><li>Simple enquiry process</li></ul><a class="btn" href="#contact">Contact Steve</a></div>
+  </div></section>
+  <section id="contact"><div class="wrap">
+    <div class="section-head"><div class="eyebrow" style="color:#168b8b">Get in touch</div><h2>Request your free quote</h2><p>Fill in the form and your email app will open with your enquiry ready to send.</p></div>
+    <div class="contact-grid">
+      <div class="contact-info"><h3>Steve’s Carpet Cleaning Service</h3><p>Tell us a little about the job and we’ll be in touch.</p><p><strong>Service area:</strong><br><span class="small">Pinxton and surrounding areas</span></p><p><strong>Phone:</strong><br><a class="email-link" href="tel:07526142521">07526 142521</a></p><p><strong>Email:</strong><br><a class="email-link" href="mailto:2008saw@live.co.uk">2008saw@live.co.uk</a></p><a class="btn" href="https://wa.me/447526142521" id="waContact">Message on WhatsApp</a><p class="small">Cash and credit card payments accepted.</p></div>
+      <form id="enquiry">
+        <div class="field"><label for="name">Your name</label><input id="name" name="name" autocomplete="name" required placeholder="Your name"></div>
+        <div class="field"><label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email" required placeholder="you@example.com"></div>
+        <div class="field"><label for="phone">Phone number (optional)</label><input id="phone" name="phone" autocomplete="tel" placeholder="Your phone number"></div>
+        <div class="field"><label for="details">What would you like cleaned?</label><textarea id="details" name="details" required placeholder="For example: two bedrooms and a hallway..."></textarea></div>
+        <button class="btn" type="submit">Prepare my enquiry</button>
+        <p class="small">Your email app will open with your enquiry addressed to 2008saw@live.co.uk, ready for you to send.</p>
+        <p id="status" class="small" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </div></section>
+</main>
+<footer><div class="wrap">© <span id="year"></span> Steve’s Carpet Cleaning Service. All rights reserved.</div></footer>
+<a class="wa" id="floatingWa" href="https://wa.me/447526142521" aria-label="Chat on WhatsApp">☏ WhatsApp</a>
 <script>
-const BUSINESS_EMAIL="REPLACE_WITH_YOUR_EMAIL";
-document.getElementById("year").textContent=new Date().getFullYear();
-document.getElementById("enquiry").addEventListener("submit",function(e){e.preventDefault();if(BUSINESS_EMAIL==="REPLACE_WITH_YOUR_EMAIL"){document.getElementById("status").textContent="Please add your business email address in the website code before using the enquiry form.";return;}const d=new FormData(this);const s=encodeURIComponent("Website enquiry from "+d.get("name"));const b=encodeURIComponent("Name: "+d.get("name")+"\nEmail: "+d.get("email")+"\nPhone: "+d.get("phone")+"\n\n"+d.get("details"));location.href="mailto:"+BUSINESS_EMAIL+"?subject="+s+"&body="+b;});
+  const BUSINESS_EMAIL = "2008saw@live.co.uk";
+  document.getElementById("year").textContent = new Date().getFullYear();
+  document.getElementById("enquiry").addEventListener("submit", function(e) {
+    e.preventDefault();
+    const data = new FormData(this);
+    const subject = encodeURIComponent("Cleaning enquiry from " + data.get("name"));
+    const body = encodeURIComponent(
+      "Name: " + data.get("name") + "\nEmail: " + data.get("email") +
+      "\nPhone: " + (data.get("phone") || "Not provided") +
+      "\n\nEnquiry:\n" + data.get("details")
+    );
+    window.location.href = "mailto:" + BUSINESS_EMAIL + "?subject=" + subject + "&body=" + body;
+  });
 </script>
-</body></html>
+</body>
+</html>
